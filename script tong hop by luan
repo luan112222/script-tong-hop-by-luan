@@ -93,8 +93,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
   })   AddButton(Tab1o, {
      Name = "raito hub (blox fruit)",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
   end
   })   AddButton(Tab1o, {
      Name = "speed hub (blox fruit)",
@@ -119,8 +118,22 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main
   })   AddButton(Tab1o, {
      Name = "admin command",
     Callback = function()
+	 loadstring(game:HttpGet(("https://raw.githubusercontent.com/rjk0720/Roblox-Commands/refs/heads/master/AdminCommands.lua")))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "nameless admin",
+    Callback = function()
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
   end
+  })   AddButton(Tab1o, {
+     Name = "chưa có script",
+    Callback = function()
+  end
+  })   AddButton(Tab1o, {
+     Name = "chưa có script",
+    Callback = function()
+  end
+  })
 ----- Section 
    
    Section = AddSection(Tab1o, {"a"})          
